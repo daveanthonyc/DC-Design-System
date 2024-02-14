@@ -66,6 +66,7 @@ They are mostly patterns in your code to deal with specific scenarios
 
 # Design Tokens
 Resource: [ Tokens, variables, and styles - Update: Introduction to design systems ](https://www.youtube.com/watch?v=JyCmacSyDY4)
+
 Problem they can solve: They can become a standard of design for things like border radius, spacing values to prevent inconsistent product development over different teams with different designers
 - They are a source of truth to maintain consistency
 - Improve management of scaling design
