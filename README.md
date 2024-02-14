@@ -101,3 +101,20 @@ Problem they can solve: They can become a standard of design for things like bor
 ### Naming conventions
 - An option is to use kebab case with full length words that are descriptive and are always in teh same syntax ordering. E.g background-color-primary
 - Avoid using 'brand' in name if designing for multiple brands in one project
+
+# My Process of Building the Design System
+- Look at awwwards site and copy design appropriate for my design sytem
+- Create style guide: 
+	- Typography
+	- tokens:
+		- colors
+		- padding / margins
+		- border widths
+- Identify list of atomic components
+- Integrate Storybook
+- Integrate CSS in JS
+- Develop components in React/Ts
+- Define API for components (look to Storybook, MUI, AGS for inspiration)
+- Add documentation for components
+- Test components
+- Publish to npm
