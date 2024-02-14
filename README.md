@@ -65,3 +65,4 @@ They are mostly patterns in your code to deal with specific scenarios
 
 # Design Tokens
 Resource: ( Tokens, variables, and styles - Update: Introduction to design systems )[https://www.youtube.com/watch?v=JyCmacSyDY4]
+[ Tokens, variables, and styles - Update: Introduction to design systems ](https://www.youtube.com/watch?v=JyCmacSyDY4)
