@@ -58,7 +58,10 @@ They are mostly patterns in your code to deal with specific scenarios
 ### * Templates
 - They are an assortment of page layouts that combine several components for specific purposes
 
-# Tradeoffs
+### Tradeoffs
 - Of course it takes time to be able to design and build something correctly first
 - So because of this time required, conversation is required with the product team on if it is appropriate. E.g if it is used for a one off product which might not be necessary.
 - Creating these component design systems allows for high-fidely quickly. However despite developing it, there is the question if this is meeting the needs of the user vs creating something that just "looks right"
+
+# Design Tokens
+Resource: ( Tokens, variables, and styles - Update: Introduction to design systems )[https://www.youtube.com/watch?v=JyCmacSyDY4]
