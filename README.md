@@ -102,7 +102,8 @@ Problem they can solve: They can become a standard of design for things like bor
 - An option is to use kebab case with full length words that are descriptive and are always in teh same syntax ordering. E.g background-color-primary
 - Avoid using 'brand' in name if designing for multiple brands in one project
 
-# My Process of Building the Design System
+# Process of Building the Design System
+[Storybook's tutorial guide: "Design Systems for Developers"](https://storybook.js.org/tutorials/design-systems-for-developers/)
 - Look at awwwards sites and take inspiration for what is appropriate for my design sytem
 - Create style guide: 
 	- Typography
