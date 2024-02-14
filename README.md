@@ -64,5 +64,4 @@ They are mostly patterns in your code to deal with specific scenarios
 - Creating these component design systems allows for high-fidely quickly. However despite developing it, there is the question if this is meeting the needs of the user vs creating something that just "looks right"
 
 # Design Tokens
-Resource: ( Tokens, variables, and styles - Update: Introduction to design systems )[https://www.youtube.com/watch?v=JyCmacSyDY4]
-[ Tokens, variables, and styles - Update: Introduction to design systems ](https://www.youtube.com/watch?v=JyCmacSyDY4)
+Resource: [ Tokens, variables, and styles - Update: Introduction to design systems ](https://www.youtube.com/watch?v=JyCmacSyDY4)
