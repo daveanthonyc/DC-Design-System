@@ -1,4 +1,4 @@
-# David Chiang's Freelancer Design System
+# Contemporary Freelancer Design System
 
 This is an open source React/TypeScript design system which I intend to use to build websites as a freelancer but also allow others to build their own sites. The Storybook library has been added for easier inspection and testing of components and the link to it can be found here.
 [Storybook]()
@@ -103,7 +103,7 @@ Problem they can solve: They can become a standard of design for things like bor
 - Avoid using 'brand' in name if designing for multiple brands in one project
 
 # My Process of Building the Design System
-- Look at awwwards site and copy design appropriate for my design sytem
+- Look at awwwards sites and take inspiration for what is appropriate for my design sytem
 - Create style guide: 
 	- Typography
 	- tokens:
@@ -114,7 +114,7 @@ Problem they can solve: They can become a standard of design for things like bor
 - Integrate Storybook
 - Integrate CSS in JS
 - Develop components in React/Ts
-- Define API for components (look to Storybook, MUI, AGS for inspiration)
+- Define API for components (look to Storybook, MUI, AGS design systems for inspiration)
 - Add documentation for components
 - Test components
 - Publish to npm
