@@ -1,7 +1,6 @@
 # Contemporary Freelancer Design System
 
-This is an open source React/TypeScript design system which I intend to use to build websites as a freelancer but also allow others to build their own sites. The Storybook library has been added for easier inspection and testing of components and the link to it can be found here.
-[Storybook]()
+This is an open source React/TypeScript design system which I intend to use to build websites as a freelancer but also allow others to build their own sites. The Storybook library has been added for easier inspection and testing of components and the link to it can be found [here]().
 
 **However, this repo is mainly for the documenting of my findings on how to build production ready frontend design systems.**
 
@@ -10,7 +9,7 @@ This is an open source React/TypeScript design system which I intend to use to b
 - How to use Story book and how it helps productivity between developers and UI/UX developers
 
 # Designing at Scale
-*Resource: [Designing at Scale by Nathan Simpson @ Thinkmill](https://www.youtube.com/watch?v=8UZqaayA4dE)*
+**Resource: [Designing at Scale by Nathan Simpson @ Thinkmill](https://www.youtube.com/watch?v=8UZqaayA4dE)**
 - Main problem to solve: How can large enterprises with multiple products and designers achieve consistency at scale? 
 The answer is = **Design Systems**
 
@@ -65,7 +64,7 @@ They are mostly patterns in your code to deal with specific scenarios
 - Creating these component design systems allows for high-fidely quickly. However despite developing it, there is the question if this is meeting the needs of the user vs creating something that just "looks right"
 
 # Design Tokens
-Resource: [ Tokens, variables, and styles - Update: Introduction to design systems ](https://www.youtube.com/watch?v=JyCmacSyDY4)
+**Resource: [ Tokens, variables, and styles - Update: Introduction to design systems ](https://www.youtube.com/watch?v=JyCmacSyDY4)**
 
 Problem they can solve: They can become a standard of design for things like border radius, spacing values to prevent inconsistent product development over different teams with different designers
 - They are a source of truth to maintain consistency
@@ -104,7 +103,7 @@ Problem they can solve: They can become a standard of design for things like bor
 - Avoid using 'brand' in name if designing for multiple brands in one project
 
 # Process of Building the Design System
-[Storybook's tutorial guide: "Design Systems for Developers"](https://storybook.js.org/tutorials/design-systems-for-developers/)
+**Resource: [Storybook's tutorial guide: "Design Systems for Developers"](https://storybook.js.org/tutorials/design-systems-for-developers/)**
 - Look at awwwards sites and take inspiration for what is appropriate for my design sytem
 - Create style guide: 
 	- Typography
