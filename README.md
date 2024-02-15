@@ -143,3 +143,5 @@ Problem they can solve: They can become a standard of design for things like bor
 
 - All React hooks
 - Js promise / async await
+- TypeScript types regarding the event object, React component specific objects and other DOM related objects
+- TypeScript Generics
