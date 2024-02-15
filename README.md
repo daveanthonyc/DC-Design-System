@@ -119,3 +119,27 @@ Problem they can solve: They can become a standard of design for things like bor
 - Add documentation for components
 - Test components
 - Publish to npm
+
+# Questions
+- Where and how to store design tokens?
+- What are examples of design tokens in the method of storage?
+- How to use design tokens in design system? Are they found in the component itself, or passed through the API?
+- How to make design tokens globally available in components/project?
+    - How to do via useContext / Redux
+- Are there certain fundamental attributes needed in each component of the design system?
+- How to implement more advanced components? E.g Things that require more DOM related functions such as anchoring elements to one another => inspect and copy the MUI API
+
+- How to implement component based development starting from atomic components?
+
+## Plan
+- Inspect Storybooks' and AGS' and MUI Design Systems for the architecture of their design system. => esp any commonality
+
+# Unrelated Questions
+- What are standard practice and patterns for:
+    - consuming RESTful APIs?
+    - parsing received data?
+    - passing data to components
+    - handling synchrony when receiving API data and storing in global state?
+
+- All React hooks
+- Js promise / async await
