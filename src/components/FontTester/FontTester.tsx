@@ -1,12 +1,24 @@
 import { ReactNode } from "react"
+import React from "react"
+import { css } from "@emotion/react"
+import { useTheme } from "@emotion/react"
+import { Theme } from "../../Theme.ts"
 
-type TesterProps = {
+
+type ButtonProps = {
     children: ReactNode,
-    thing: string
+    spacing?: "small" | "medium" | "large",
 }
 
-const FontTester: React.FC<TesterProps> = ({children, thing}) => {
-    return <span><p>{thing}</p>{children}</span>
+const ButtonComponent: React.FC<ButtonProps> = ({children, spacing = "medium"}) => {
+    const theme = useTheme() as Theme;
+
+    const styles = css`
+        padding: ${theme.spacing[spacing]};
+        backgroundColor: ${theme.colors.primary};
+    `;
+
+    return <button css={styles}>{children}</button>
 }
 
-export default FontTester;
+export default ButtonComponent;

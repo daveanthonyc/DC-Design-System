@@ -121,7 +121,11 @@ Problem they can solve: They can become a standard of design for things like bor
 - Publish to npm
 
 # Questions
-- Where and how to store design tokens?
+# 1. Where and how to store design tokens?
+Using @emotion/react, you can use the themeProvider and createTheme to essentially create an object with several tokens either for colors, typography, and spacings that becomes globally available. This can be stored in its own TypeScript file.
+So it is just like in material ui emotion for users who are used to developing themes in that design system. 
+This object is made available by wrapping the source component, let's say in the main.tsx file, with a ThemeProvider wrapper. This wrapper takes in the attribute of the theme object we just created. Then this theme is available with the useTheme hook.
+
 - What are examples of design tokens in the method of storage?
 - How to use design tokens in design system? Are they found in the component itself, or passed through the API?
 - How to make design tokens globally available in components/project?
@@ -145,3 +149,48 @@ Problem they can solve: They can become a standard of design for things like bor
 - Js promise / async await
 - TypeScript types regarding the event object, React component specific objects and other DOM related objects
 - TypeScript Generics
+
+# How to install @emotion/react with the Vite bundler
+Read this blog post [here](https://dev.to/glocore/configure-emotion-with-your-vite-react-project-7jl)
+Vite is a bundler that uses esbuild and not babel. It appears that babel is needed to transpile the CSS-in-Js in @emotion/react so the babel plugin must be added as well as a dependency.
+
+## 1. Install Dependencies
+```npm install --save @emotion/react```
+```npm install --save-dev @emotion/babel-plugin```
+
+## 2. Update vite.config.ts
+```
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [
+    react({
+      jsxImportSource: "@emotion/react",
+      babel: {
+        plugins: ["@emotion/babel-plugin"],
+      },
+    }),
+  ],
+});
+```
+
+## 3. Add TypeScript support
+In tsconfig.json add,
+```
+{
+  "compilerOptions": {
+    "jsxImportSource": "@emotion/react"
+  }
+}
+```
+
+# TypeScript decisions
+- If I want to add types to an object that might change over time, then it could be good to use this implementation:  
+- If I declare an object made globally and need to reference that object's fields many times through typing, then I can use this implementation:
+
+```
+const object = {};
+const ObjectType = typeof object;
+```
