@@ -4,6 +4,23 @@ This is an open source React/TypeScript design system which I intend to use to b
 
 **However, this repo is mainly for the documenting of my findings on how to build production ready frontend design systems.**
 
+# Component List
+- Button
+- Input
+- CheckBox
+- RadioButton
+- Typography
+- NavBar
+- BreadCrumbs
+- Tabs?
+- FormField / FormGroup / FormControls
+- Dialog
+- Alert
+- DataTable
+- Card
+- ToolTip
+- DropDown
+
 ## Topics of Interest
 - Story book
 - How to use Story book and how it helps productivity between developers and UI/UX developers
